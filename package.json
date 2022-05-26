@@ -6,7 +6,8 @@
     "start": "vite",
     "dev": "vite --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "prod": "pnpm build && git add . && git commit -m \"Production build\" && git push"
   },
   "license": "MIT",
   "devDependencies": {
