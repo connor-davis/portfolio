@@ -16,7 +16,7 @@ export default defineConfig({
       srcDir: 'src',
       base: '/',
       workbox: {
-        cleanupOutdatedCaches: true,
+        cleanupOutdatedCaches: false,
         sourcemap: true,
       },
       devOptions: {
